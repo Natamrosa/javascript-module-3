@@ -5,8 +5,9 @@
  *
  * 1. Receives 2 parameters: `array` and `entry`
  *
- * @example
+ *  @example
  *
+ * 
  * function fn (array, entry) {...}
  *
  * 2. Executes the array.find() method to find the `entry`
@@ -16,7 +17,10 @@
  */
 
 // Finish the code of the function
-function exercise11() {}
+function exercise11(array, entry) {
+    let find = array.find((element) => element === entry);
+    return find;
+}
 
 // Don’t change the code bellow this line
 export default exercise11;

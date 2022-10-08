@@ -9,6 +9,7 @@
  *
  * function fn (array, entry) {...}
  *
+ * 
  * 2. Executes the array.includes() method to check if the `entry`
  *    is in the `array` parameter that the function receives.
  *
@@ -16,7 +17,10 @@
  */
 
 // Finish the code of the function
-function exercise12() {}
+function exercise12(array, entry) {
+    let includes = array.includes(entry);
+    return includes;
+}
 
 // Don’t change the code bellow this line
 export default exercise12;

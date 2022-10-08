@@ -8,7 +8,11 @@
  *
  * @example
  *
- * export function test() {
+*   export function test() {
  *    return "something";
  * };
  */
+
+     export function add (a,b) {
+       return a+b;
+    }
